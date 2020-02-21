@@ -1,6 +1,6 @@
-import tree
+import Tree
 
-t = tree.TreeIA()
+t = Tree.TreeIA()
 
 
 t.insere(5,6)
