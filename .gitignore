@@ -1,0 +1,141 @@
+# Arquivos compilados em bytes / otimizados / DLL
+__pycache __ /
+* .py [cod]
+* $ py.class
+
+Extensões # C
+*.assim
+
+# Distribuição / embalagem
+.Pitão
+Construir/
+desenvolver ovos /
+dist /
+Transferências/
+ovos/
+.ovos/
+lib /
+lib64 /
+peças /
+sdist /
+var /
+rodas /
+metadados pip-wheel /
+compartilhar / rodas-python /
+* .egg-info /
+.installed.cfg
+*.ovo
+MANIFESTO
+
+# PyInstaller
+# Geralmente, esses arquivos são gravados por um script python a partir de um modelo
+# antes do PyInstaller criar o exe, para injetar data / outras informações nele.
+*.manifesto
+* .spec
+
+# Logs do instalador
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Relatórios de teste / cobertura unitária
+htmlcov /
+.tox /
+.nox /
+.cobertura
+.cobertura.*
+.cache
+nosetests.xml
+cobertura.xml
+*.cobrir
+* .py, capa
+.hipótese/
+.pytest_cache /
+
+# Traduções
+* .mo
+*.Panela
+
+# Coisas do Django:
+*.registro
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Material do balão:
+instância/
+.webassets-cache
+
+# Coisas arranhadas:
+.scrapy
+
+# Documentação da esfinge
+docs / _build /
+
+# PyBuilder
+alvo/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default /
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+# De acordo com pypa / pipenv # 598, é recomendável incluir o Pipfile.lock no controle de versão.
+# No entanto, no caso de colaboração, se houver dependências ou dependências específicas da plataforma
+# sem suporte multiplataforma, o pipenv pode instalar dependências que não funcionam ou não
+# instalar todas as dependências necessárias.
+# Pipfile.lock
+
+# arquivo de programação de batidas de aipo
+agenda do aipo
+
+# SageMath arquivos analisados
+* .sage.py
+
+# Ambientes
+.env
+.venv
+env /
+venv /
+ENV /
+env.bak /
+venv.bak /
+
+# Configurações do projeto Spyder
+.spyderproject
+.spyproject
+
+# Configurações do projeto de corda
+.ropeproject
+
+documentação do # mkdocs
+/local
+
+# mypy
+.mypy_cache /
+.dmypy.json
+dmypy.json
+
+# Verificador de tipo pira
+.pyre /
+
+# NodeJs
+node_modules /
+
+# meios de comunicação
+meios de comunicação/
+
+# vscode
+.vscode
+settings.json
+launch.json
+
+.vscode / settings.json
+/.vscode/settings.json
+.vscode / launch.json
+/.vscode/launch.json
