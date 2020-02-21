@@ -23,15 +23,14 @@ class FilaD(): #LISTA
         self.quant-=1
 
     def getPrim(self):
-        return self.prim
+        return self.prim.info
 
     def estahVazia(self):
-        if self.quant == 0:
-            return True
-        return False
+        return self.quant == 0
 
     def show(self):
-        aux = self.prim # Aponta para o NO que contem A
+        aux = self.prim
         while aux != None:
-            print(aux.info)
+            print(aux.info, end=' ')
             aux = aux.prox
+        print("\n")
