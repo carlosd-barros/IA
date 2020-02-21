@@ -2,6 +2,7 @@
 __pycache __ /
 * .py [cod]
 * $ py.class
+*.pyc
 
 Extensões # C
 *.assim
