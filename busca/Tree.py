@@ -58,16 +58,41 @@ class TreeIA:
             self.raiz.insere(valor1,valor2)
 
     def show1(self):
-        if self.raiz!=None:
-            self.raiz.show1()
+        cont=0
+        f = Fila.Fila()
+        f.inserir(self)
+        num= int(input("Digite um valor:"))
+        
+        while f.estahVazia() != True:
+            self = f.getPrim()
+            cont+=1               
+            if(num == self.info):
+                print("Nó:", cont)
+                break
+            print(self.info, end=" ")
+            f.remover()
+            for i in self.filhos: 
+                f.inserir(i)
 
     def show2(self):
         if self.raiz!=None:
             self.raiz.show2()
 
     def show3(self):
-        if self.raiz!=None:
-            self.raiz.show3()
+        p = Pilha.Pilha()
+        p.push(self)
+        cont=0
+        num= int(input("Digite um valor2:"))
+        while p.estahVazia() != True:
+            self = p.getTopo()
+            cont+=1
+            if(num == self.info):
+                print("Nó:", cont)
+                break
+            print(self.info, end=" ")
+            p.pop()
+            for i in self.filhos:
+                p.push(i)
 
     def show(self):
         if self.raiz!=None:
